@@ -38,7 +38,7 @@ const initialSyncBehaviors = [
     value: IntegrationSyncBehavior.OVERWRITE_TARGET
   },
   { label: "Import - Prefer values from Heroku", value: IntegrationSyncBehavior.PREFER_TARGET },
-  { label: "Import - Prefer values from Solomon AI", value: IntegrationSyncBehavior.PREFER_SOURCE }
+  { label: "Import - Prefer values from Vector", value: IntegrationSyncBehavior.PREFER_SOURCE }
 ];
 
 const schema = yup.object({
@@ -213,7 +213,7 @@ export default function HerokuCreateIntegrationPage() {
       <Card className="max-w-lg rounded-md border border-mineshaft-600 p-0">
         <CardTitle
           className="px-6 text-left text-xl"
-          subTitle="Select which environment or folder in Solomon AI you want to sync to Heroku's environment variables."
+          subTitle="Select which environment or folder in Vector you want to sync to Heroku's environment variables."
         >
           <div className="flex flex-row items-center">
             <div className="flex items-center">
@@ -357,7 +357,7 @@ export default function HerokuCreateIntegrationPage() {
         </div>
         <span className="mt-4 text-sm text-mineshaft-300">
           After creating an integration, your secrets will start syncing immediately. This might
-          cause an unexpected override of current secrets in Heroku with secrets from Solomon AI.
+          cause an unexpected override of current secrets in Heroku with secrets from Vector.
         </span>
       </div></>} */}
     </div>

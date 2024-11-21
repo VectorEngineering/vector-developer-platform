@@ -314,7 +314,7 @@ export const RabbitMqInputForm = ({
                   label="Tags"
                   tooltipText={
                     <div className="space-y-4">
-                      <p>Select which tag(s) to assign the users provisioned by Solomon AI.</p>
+                      <p>Select which tag(s) to assign the users provisioned by Vector.</p>
                       <p>
                         There is a wide range of in-built roles in RabbitMQ. Some include,
                         management, policymaker, monitoring, administrator. <br />

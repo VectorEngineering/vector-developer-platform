@@ -49,7 +49,7 @@ export const ImportTab = () => {
           Import
         </Button>
       </div>
-      <p className="mb-4 text-gray-400">Import data from another platform to Solomon AI.</p>
+      <p className="mb-4 text-gray-400">Import data from another platform to Vector.</p>
 
       <SelectImportFromPlatformModal
         isOpen={popUp.selectImportPlatform.isOpen}

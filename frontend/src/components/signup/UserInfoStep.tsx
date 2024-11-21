@@ -247,7 +247,7 @@ export default function UserInfoStep({
             Organization Name
           </p>
           <Input
-            placeholder="Solomon AI"
+            placeholder="Vector"
             onChange={(e) => setOrganizationName(e.target.value)}
             value={organizationName}
             maxLength={64}

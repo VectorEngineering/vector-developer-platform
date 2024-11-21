@@ -99,7 +99,7 @@ export const CertificateTemplatesSection = ({ caId }: Props) => {
       <UpgradePlanModal
         isOpen={popUp.upgradePlan.isOpen}
         onOpenChange={(isOpen) => handlePopUpToggle("upgradePlan", isOpen)}
-        text="Managing template enrollment options for EST is only available on Solomon AI's Enterprise plan."
+        text="Managing template enrollment options for EST is only available on Vector's Enterprise plan."
       />
     </div>
   );

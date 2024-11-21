@@ -81,7 +81,7 @@ export const OrgMembersTable = ({ handlePopUpOpen, setCompleteInviteLinks }: Pro
 
       if (isCustomRole && subscription && !subscription?.rbac) {
         handlePopUpOpen("upgradePlan", {
-          description: "You can assign custom roles to members if you upgrade your Solomon AI plan."
+          description: "You can assign custom roles to members if you upgrade your Vector plan."
         });
         return;
       }
@@ -304,7 +304,7 @@ export const OrgMembersTable = ({ handlePopUpOpen, setCompleteInviteLinks }: Pro
 
                                       if (currentOrg?.scimEnabled) {
                                         createNotification({
-                                          text: "You cannot manage users from Solomon AI when org-level auth is enforced for your organization",
+                                          text: "You cannot manage users from Vector when org-level auth is enforced for your organization",
                                           type: "error"
                                         });
                                         return;
@@ -349,7 +349,7 @@ export const OrgMembersTable = ({ handlePopUpOpen, setCompleteInviteLinks }: Pro
 
                                       if (currentOrg?.scimEnabled) {
                                         createNotification({
-                                          text: "You cannot manage users from Solomon AI when org-level auth is enforced for your organization",
+                                          text: "You cannot manage users from Vector when org-level auth is enforced for your organization",
                                           type: "error"
                                         });
                                         return;

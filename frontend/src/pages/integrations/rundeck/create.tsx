@@ -82,7 +82,7 @@ export default function RundeckCreateIntegrationPage() {
       <Card className="max-w-lg border rounded-md border-mineshaft-600">
         <CardTitle
           className="px-6 text-xl text-left"
-          subTitle="Choose which environment or folder in Solomon AI you want to sync to the Rundeck Key Storage."
+          subTitle="Choose which environment or folder in Vector you want to sync to the Rundeck Key Storage."
         >
           <div className="flex flex-row items-center">
             <div className="flex items-center pb-0.5">

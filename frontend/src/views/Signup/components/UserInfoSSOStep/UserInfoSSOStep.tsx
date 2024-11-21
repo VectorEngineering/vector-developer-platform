@@ -272,7 +272,7 @@ export const UserInfoSSOStep = ({
               Organization Name
             </p>
             <Input
-              placeholder="Solomon AI"
+              placeholder="Vector"
               value={organizationName}
               onChange={(e) => setOrganizationName(e.target.value)}
               isRequired

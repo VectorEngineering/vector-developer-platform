@@ -183,10 +183,10 @@ export const AdminLayout = ({ children }: LayoutProps) => {
                   } relative z-10 mb-6 flex w-52 flex-col items-center justify-start rounded-md border border-mineshaft-600 bg-mineshaft-900 px-3 pb-2`}
                 >
                   <div className="text-md mt-2 w-full font-semibold text-mineshaft-100">
-                    Solomon AI December update
+                    Vector December update
                   </div>
                   <div className="mt-1 mb-1 w-full text-sm font-normal leading-[1.2rem] text-mineshaft-300">
-                    Solomon AI Agent, new SDKs, Machine Identities, and more!
+                    Vector Agent, new SDKs, Machine Identities, and more!
                   </div>
                   <div className="mt-2 h-[6.77rem] w-full rounded-md border border-mineshaft-700">
                     <Image

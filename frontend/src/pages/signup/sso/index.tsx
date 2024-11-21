@@ -20,7 +20,7 @@ export default function SignupSSOPage() {
         <meta name="og:description" content={t("signup.og-description") as string} />
       </Head>
       <div className="mb-4 mt-20 flex justify-center">
-        <Image src="/images/gradientLogo.svg" height={90} width={120} alt="Solomon AI Logo" />
+        <Image src="/images/gradientLogo.svg" height={90} width={120} alt="Vector Logo" />
       </div>
       <SignupSSO providerAuthToken={token} />
     </div>

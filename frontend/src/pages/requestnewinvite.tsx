@@ -3,7 +3,7 @@ import Image from "next/image";
 
 /**
  * This is the page that shows up when a user's invitation
- * to join a project/organization on Solomon AI has expired
+ * to join a project/organization on Vector has expired
  */
 export default function RequestNewInvite() {
   return (

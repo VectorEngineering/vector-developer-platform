@@ -9,7 +9,7 @@ export default function IntegrationsDetailsPage() {
   return (
     <>
       <Head>
-        <title>Integration Details | Solomon AI</title>
+        <title>Integration Details | Vector</title>
         <link rel="icon" href="/infisical.ico" />
         <meta property="og:image" content="/images/message.png" />
         <meta property="og:title" content="Manage your .env files in seconds" />

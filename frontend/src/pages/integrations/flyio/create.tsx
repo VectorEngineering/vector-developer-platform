@@ -106,7 +106,7 @@ export default function FlyioCreateIntegrationPage() {
       <Card className="max-w-lg rounded-md border border-mineshaft-600">
         <CardTitle
           className="px-6 text-left text-xl"
-          subTitle="Choose which environment or folder in Solomon AI you want to sync to Fly.io environment variables."
+          subTitle="Choose which environment or folder in Vector you want to sync to Fly.io environment variables."
         >
           <div className="flex flex-row items-center">
             <div className="inline flex items-center pb-0.5">
@@ -135,7 +135,7 @@ export default function FlyioCreateIntegrationPage() {
         <div className="px-6 pb-4">
           <Alert hideTitle variant="warning">
             <AlertDescription>
-              All current secrets linked to the related Fly.io project will be deleted before Solomon AI secrets are pushed to your Fly.io project.
+              All current secrets linked to the related Fly.io project will be deleted before Vector secrets are pushed to your Fly.io project.
             </AlertDescription>
           </Alert>
         </div>
@@ -204,7 +204,7 @@ export default function FlyioCreateIntegrationPage() {
         </div>
         <span className="mt-4 text-sm text-mineshaft-300">
           After creating an integration, your secrets will start syncing immediately. This might
-          cause an unexpected override of current secrets in Fly.io with secrets from Solomon AI.
+          cause an unexpected override of current secrets in Fly.io with secrets from Vector.
         </span>
       </div>
     </div>

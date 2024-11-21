@@ -51,7 +51,7 @@ export default function ChecklyCreateIntegrationPage() {
       <Card className="mb-12 max-w-lg rounded-md border border-mineshaft-600">
         <CardTitle
           className="px-6 text-left text-xl"
-          subTitle="After adding your API key, you will be prompted to set up an integration for a particular Solomon AI project and environment."
+          subTitle="After adding your API key, you will be prompted to set up an integration for a particular Vector project and environment."
         >
           <div className="flex flex-row items-center">
             <div className="inline flex items-center pb-0.5">

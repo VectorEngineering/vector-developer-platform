@@ -1049,7 +1049,7 @@ export const AppLayout = ({ children }: LayoutProps) => {
                                 className="w-full mb-12 bg-mineshaft-600"
                               >
                                 <SelectItem value={INTERNAL_KMS_KEY_ID} key="kms-internal">
-                                  Default Solomon AI KMS
+                                  Default Vector KMS
                                 </SelectItem>
                                 {externalKmsList?.map((kms) => (
                                   <SelectItem value={kms.id} key={`kms-${kms.id}`}>

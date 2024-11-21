@@ -104,7 +104,7 @@ export const Navbar = () => {
             <Image src="/images/logotransparent.png" height={23} width={57} alt="logo" />
           </div>
           <a href="#" className="mx-2 text-2xl font-semibold text-white">
-            Solomon AI
+            Vector
           </a>
         </div>
         <div className="relative z-40 mx-2 flex items-center justify-start">
@@ -333,7 +333,7 @@ export const Navbar = () => {
             className="mx-auto py-4 text-center text-sm"
           >
             You are currently on the <span className="font-semibold">Starter</span> plan. Unlock the
-            full power of Solomon AI on the{" "}
+            full power of Vector on the{" "}
             <span className="font-semibold">Pro Free Trial &rarr;</span>
           </button>
         </div>

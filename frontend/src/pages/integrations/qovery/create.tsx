@@ -192,7 +192,7 @@ export default function QoveryCreateIntegrationPage() {
       <Card className="max-w-lg p-0 border rounded-md border-mineshaft-600">
         <CardTitle
           className="px-6 text-xl text-left"
-          subTitle="Choose which environment in Infisical you want to sync to Checkly environment variables."
+          subTitle="Choose which environment in Vector you want to sync to Checkly environment variables."
         >
           <div className="flex flex-row items-center">
             <div className="inline flex items-center pb-0.5">
@@ -221,7 +221,7 @@ export default function QoveryCreateIntegrationPage() {
         <Tabs defaultValue={TabSections.InfisicalSettings} className="px-6">
           <TabList>
             <div className="flex flex-row w-full border-b border-mineshaft-600">
-              <Tab value={TabSections.InfisicalSettings}>Solomon AI Settings</Tab>
+              <Tab value={TabSections.InfisicalSettings}>Vector Settings</Tab>
               <Tab value={TabSections.QoverySettings}>Qovery Settings</Tab>
             </div>
           </TabList>
@@ -233,7 +233,7 @@ export default function QoveryCreateIntegrationPage() {
               animate={{ opacity: 1, translateX: 0 }}
               exit={{ opacity: 0, translateX: 30 }}
             >
-              <FormControl label="Solomon AI Project Environment">
+              <FormControl label="Vector Project Environment">
                 <Select
                   value={selectedSourceEnvironment}
                   onValueChange={(val) => setSelectedSourceEnvironment(val)}

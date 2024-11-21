@@ -123,7 +123,7 @@ export const MemberRoleModify = ({ projectMember, onOpenUpgradeModal }: Props) =
 
     if (hasCustomRoleSelected && subscription && !subscription?.rbac) {
       onOpenUpgradeModal(
-        "You can assign custom roles to members if you upgrade your Solomon AI plan."
+        "You can assign custom roles to members if you upgrade your Vector plan."
       );
       return;
     }

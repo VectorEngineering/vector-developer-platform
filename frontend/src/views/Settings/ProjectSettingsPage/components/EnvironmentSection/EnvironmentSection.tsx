@@ -124,7 +124,7 @@ export const EnvironmentSection = () => {
       <UpgradePlanModal
         isOpen={popUp.upgradePlan.isOpen}
         onOpenChange={(isOpen) => handlePopUpToggle("upgradePlan", isOpen)}
-        text="You can add custom environments if you switch to Solomon AI's Team plan."
+        text="You can add custom environments if you switch to Vector's Team plan."
       />
     </div>
   );

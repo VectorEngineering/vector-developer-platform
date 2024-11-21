@@ -19,15 +19,15 @@ const getCustomSlackAppCreationUrl = () =>
   `https://api.slack.com/apps?new_app=1&manifest_json=${encodeURIComponent(
     JSON.stringify({
       display_information: {
-        name: "Solomon AI",
-        description: "Get real-time Solomon AI updates in Slack",
+        name: "Vector",
+        description: "Get real-time Vector updates in Slack",
         background_color: "#c2d62b",
-        long_description: `This Slack application is designed specifically for use with your self-hosted Solomon AI instance, allowing seamless integration between your Solomon AI projects and your Slack workspace. With this integration, your team can stay up-to-date with the latest events, changes, and notifications directly inside Slack.
-        - Notifications: Receive real-time updates and alerts about critical events in your Solomon AI projects. Whether it's a new project being created, updates to secrets, or changes to your team's configuration, you will be promptly notified within the designated Slack channels of your choice.
+        long_description: `This Slack application is designed specifically for use with your self-hosted Vector instance, allowing seamless integration between your Vector projects and your Slack workspace. With this integration, your team can stay up-to-date with the latest events, changes, and notifications directly inside Slack.
+        - Notifications: Receive real-time updates and alerts about critical events in your Vector projects. Whether it's a new project being created, updates to secrets, or changes to your team's configuration, you will be promptly notified within the designated Slack channels of your choice.
         - Customization: Tailor the notifications to your team's specific needs by configuring which types of events trigger alerts and in which channels they are sent.
-        - Collaboration: Keep your entire team in the loop with notifications that help facilitate more efficient collaboration by ensuring that everyone is aware of important developments in your Solomon AI projects.
+        - Collaboration: Keep your entire team in the loop with notifications that help facilitate more efficient collaboration by ensuring that everyone is aware of important developments in your Vector projects.
         
-        By integrating Solomon AI with Slack, you can enhance your workflow by combining the power of secure secrets management with the communication capabilities of Slack.`
+        By integrating Vector with Slack, you can enhance your workflow by combining the power of secure secrets management with the communication capabilities of Slack.`
       },
       features: {
         app_home: {
@@ -36,7 +36,7 @@ const getCustomSlackAppCreationUrl = () =>
           messages_tab_read_only_enabled: true
         },
         bot_user: {
-          display_name: "Solomon AI",
+          display_name: "Vector",
           always_online: true
         }
       },
@@ -96,7 +96,7 @@ export const IntegrationPanel = () => {
       <div className="flex flex-col justify-start">
         <div className="mb-2 text-xl font-semibold text-mineshaft-100">Slack Integration</div>
         <div className="mb-4 max-w-lg text-sm text-mineshaft-300">
-          Step 1: Create your Solomon AI Slack App
+          Step 1: Create your Vector Slack App
         </div>
         <div className="mb-6">
           <Button

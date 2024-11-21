@@ -668,7 +668,7 @@ export const SecretOverviewPage = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Solomon AI CLI
+                  Vector CLI
                 </a>
                 ,
                 <a
@@ -677,7 +677,7 @@ export const SecretOverviewPage = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Solomon AI API
+                  Vector API
                 </a>
                 ,
                 <a
@@ -686,7 +686,7 @@ export const SecretOverviewPage = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Solomon AI SDKs
+                  Vector SDKs
                 </a>
                 , and
                 <a

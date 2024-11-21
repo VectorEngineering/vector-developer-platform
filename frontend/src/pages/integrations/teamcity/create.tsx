@@ -117,7 +117,7 @@ export default function TeamCityCreateIntegrationPage() {
       <Card className="max-w-lg mb-12 border rounded-md border-mineshaft-600">
         <CardTitle
           className="px-6 text-xl text-left"
-            subTitle="Choose which environment or folders in Solomon AI you want to sync to which project in TeamCity."
+            subTitle="Choose which environment or folders in Vector you want to sync to which project in TeamCity."
         >
           <div className="flex flex-row items-center">
             <div className="inline flex items-center pb-0.5">

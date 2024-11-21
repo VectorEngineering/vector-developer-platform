@@ -53,7 +53,7 @@ const initialSyncBehaviors = [
     label: "Import - Prefer values from Azure App Configuration",
     value: IntegrationSyncBehavior.PREFER_TARGET
   },
-  { label: "Import - Prefer values from Solomon AI", value: IntegrationSyncBehavior.PREFER_SOURCE }
+  { label: "Import - Prefer values from Vector", value: IntegrationSyncBehavior.PREFER_SOURCE }
 ];
 
 export default function AzureAppConfigurationCreateIntegration() {
@@ -125,7 +125,7 @@ export default function AzureAppConfigurationCreateIntegration() {
       <Card className="max-w-lg rounded-md border border-mineshaft-600">
         <CardTitle
           className="text-left text-xl"
-          subTitle="Choose which environment in Solomon AI you want to sync to your Azure App Configuration."
+          subTitle="Choose which environment in Vector you want to sync to your Azure App Configuration."
         >
           <div className="flex flex-row items-center">
             <div className="flex items-center">

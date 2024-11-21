@@ -51,7 +51,7 @@ export default function CloudflareWorkersIntegrationPage() {
       <Card className="mb-12 max-w-lg rounded-md border border-mineshaft-600">
         <CardTitle
           className="px-6 text-left"
-          subTitle="After adding your API-key, you will be prompted to set up an integration for a particular Solomon AI project and environment."
+          subTitle="After adding your API-key, you will be prompted to set up an integration for a particular Vector project and environment."
         >
           Cloudflare Workers Integration
         </CardTitle>

@@ -106,7 +106,7 @@ export const ProjectTemplatesSection = () => {
                 <UpgradePlanModal
                   isOpen={popUp.upgradePlan.isOpen}
                   onOpenChange={(isOpen) => handlePopUpToggle("upgradePlan", isOpen)}
-                  text="You can create project templates if you switch to Solomon AI's Enterprise plan."
+                  text="You can create project templates if you switch to Vector's Enterprise plan."
                 />
               </div>
             </div>

@@ -31,7 +31,7 @@ const UpgradePlanModal = ({ isOpen, onClose, text }: Props) => {
             <div className="fixed inset-0 bg-black bg-opacity-50 drop-shadow-xl" />
           </Transition.Child>
           <div className="fixed inset-0 overflow-y-auto">
-            <div className="flex min-h-full items-center justify-center p-4 text-center">
+            <div className="flex items-center justify-center min-h-full p-4 text-center">
               <Transition.Child
                 as={Fragment}
                 enter="ease-out duration-300"
@@ -41,9 +41,9 @@ const UpgradePlanModal = ({ isOpen, onClose, text }: Props) => {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-md border border-mineshaft-500 bg-bunker p-6 pt-5 text-left align-middle shadow-xl transition-all">
+                <Dialog.Panel className="w-full max-w-md p-6 pt-5 overflow-hidden text-left align-middle transition-all transform border rounded-md shadow-xl border-mineshaft-500 bg-bunker">
                   <Dialog.Title as="h3" className="text-xl font-medium leading-6 text-primary">
-                    Unleash Solomon-AI&apos;s Full Power
+                    Unleash Vector&apos;s Full Power
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="mb-1 text-sm text-bunker-300">{text}</p>
@@ -54,14 +54,14 @@ const UpgradePlanModal = ({ isOpen, onClose, text }: Props) => {
                   <div className="mt-4">
                     <button
                       type="button"
-                      className="hover:text-semibold inline-flex justify-center rounded-md border border-transparent bg-primary px-4 py-2 text-sm font-medium text-black opacity-80 duration-200 hover:opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                      className="inline-flex justify-center px-4 py-2 text-sm font-medium text-black duration-200 border border-transparent rounded-md hover:text-semibold bg-primary opacity-80 hover:opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                       onClick={() => router.push(`/org/${currentOrg?.id}/billing`)}
                     >
                       Upgrade Now
                     </button>
                     <button
                       type="button"
-                      className="hover:text-semibold ml-2 inline-flex justify-center rounded-md border border-transparent bg-gray-800 px-4 py-2 text-sm font-medium text-gray-400 duration-200 hover:border-red hover:text-red focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                      className="inline-flex justify-center px-4 py-2 ml-2 text-sm font-medium text-gray-400 duration-200 bg-gray-800 border border-transparent rounded-md hover:text-semibold hover:border-red hover:text-red focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                       onClick={onClose}
                     >
                       Maybe Later

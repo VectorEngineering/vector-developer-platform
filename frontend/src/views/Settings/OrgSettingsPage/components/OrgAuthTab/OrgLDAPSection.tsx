@@ -126,7 +126,7 @@ export const OrgLDAPSection = (): JSX.Element => {
           </OrgPermissionCan>
         </div>
         <p className="text-sm text-mineshaft-300">
-          Manage how LDAP groups are mapped to internal groups in Solomon AI
+          Manage how LDAP groups are mapped to internal groups in Vector
         </p>
       </div>
       {data && (
@@ -147,7 +147,7 @@ export const OrgLDAPSection = (): JSX.Element => {
             </OrgPermissionCan>
           </div>
           <p className="text-sm text-mineshaft-300">
-            Allow members to authenticate into Solomon AI with LDAP
+            Allow members to authenticate into Vector with LDAP
           </p>
         </div>
       )}
@@ -164,7 +164,7 @@ export const OrgLDAPSection = (): JSX.Element => {
       <UpgradePlanModal
         isOpen={popUp.upgradePlan.isOpen}
         onOpenChange={(isOpen) => handlePopUpToggle("upgradePlan", isOpen)}
-        text="You can use LDAP authentication if you switch to Solomon AI's Enterprise plan."
+        text="You can use LDAP authentication if you switch to Vector's Enterprise plan."
       />
     </div>
   );

@@ -37,7 +37,7 @@ export const ServerConfigProvider = ({ children }: Props): JSX.Element => {
     return (
       <div className="relative mx-auto flex h-screen w-full flex-col items-center justify-center space-y-8 bg-bunker-800 px-8 text-mineshaft-50 dark:[color-scheme:dark]">
         <Head>
-          <title>Solomon AI Maintenance Mode</title>
+          <title>Vector Maintenance Mode</title>
           <link rel="icon" href="/infisical.ico" />
         </Head>
         <img
@@ -51,7 +51,7 @@ export const ServerConfigProvider = ({ children }: Props): JSX.Element => {
           Scheduled Maintenance
         </p>
         <div className="mt-2 text-center text-lg text-bunker-300">
-          Solomon AI is undergoing planned maintenance. <br /> No action is required on your end —
+          Vector is undergoing planned maintenance. <br /> No action is required on your end —
           your applications will continue to fetch secrets.
           <br /> If you have questions, please{" "}
           <a

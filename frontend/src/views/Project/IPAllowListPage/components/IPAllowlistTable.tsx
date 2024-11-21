@@ -159,7 +159,7 @@ export const IPAllowlistTable = ({ popUp, handlePopUpOpen, handlePopUpToggle }: 
       <UpgradePlanModal
         isOpen={popUp.upgradePlan.isOpen}
         onOpenChange={(isOpen) => handlePopUpToggle("upgradePlan", isOpen)}
-        text="You can use IP allowlisting if you switch to Solomon AI's Pro plan."
+        text="You can use IP allowlisting if you switch to Vector's Pro plan."
       />
     </div>
   );

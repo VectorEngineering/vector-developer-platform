@@ -133,7 +133,7 @@ export const Mfa = ({ successCallback, closeMfa, hideLogo, email, method }: Prop
       {!hideLogo && (
         <Link href="/">
           <div className="mb-4 flex justify-center">
-            <Image src="/images/gradientLogo.svg" height={90} width={120} alt="Solomon AI logo" />
+            <Image src="/images/gradientLogo.svg" height={90} width={120} alt="Vector logo" />
           </div>
         </Link>
       )}

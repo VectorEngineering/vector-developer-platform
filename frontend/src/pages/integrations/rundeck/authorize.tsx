@@ -61,7 +61,7 @@ export default function RundeckAuthorizeIntegrationPage() {
       <Card className="max-w-lg mb-12 border rounded-md border-mineshaft-600">
         <CardTitle
           className="px-6 text-xl text-left"
-          subTitle="After adding your URL and auth token, you will be prompted to set up an integration for a particular Solomon AI project and environment."
+          subTitle="After adding your URL and auth token, you will be prompted to set up an integration for a particular Vector project and environment."
         >
           <div className="flex flex-row items-center">
             <div className="flex items-center pb-0.5">

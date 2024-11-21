@@ -29,7 +29,7 @@ export default function SelectIntegrationAuthPage() {
   const { mutateAsync: duplicateIntegrationAuth, isLoading: isIntegrationAuthSelectLoading } =
     useDuplicateIntegrationAuth();
 
-  // for Github, we want to reuse the same connection across the Solomon AI organization
+  // for Github, we want to reuse the same connection across the Vector organization
   // when we do need to reuse this page for other integrations, add handling to fetch workspace integration auths instead
   const {
     data: integrationAuths,

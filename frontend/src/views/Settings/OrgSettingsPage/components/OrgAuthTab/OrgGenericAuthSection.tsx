@@ -109,7 +109,7 @@ export const OrgGenericAuthSection = () => {
       <UpgradePlanModal
         isOpen={popUp.upgradePlan.isOpen}
         onOpenChange={(isOpen) => handlePopUpToggle("upgradePlan", isOpen)}
-        text="You can enforce user MFA if you switch to Solomon AI's Pro plan."
+        text="You can enforce user MFA if you switch to Vector's Pro plan."
       />
     </div>
   );

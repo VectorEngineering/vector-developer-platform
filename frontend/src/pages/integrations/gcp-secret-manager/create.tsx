@@ -181,7 +181,7 @@ export default function GCPSecretManagerCreateIntegrationPage() {
         </Head>
         <CardTitle
           className="mb-2 px-6 text-left text-xl"
-          subTitle="Select which environment or folder in Solomon AI you want to sync to GCP Secret Manager."
+          subTitle="Select which environment or folder in Vector you want to sync to GCP Secret Manager."
         >
           <div className="flex flex-row items-center">
             <div className="inline flex items-center pb-0.5">

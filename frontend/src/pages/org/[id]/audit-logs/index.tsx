@@ -6,7 +6,7 @@ const Logs = () => {
   return (
     <div className="h-full bg-bunker-800">
       <Head>
-        <title>Solomon AI | Audit Logs</title>
+        <title>Vector | Audit Logs</title>
         <link rel="icon" href="/infisical.ico" />
         <meta property="og:image" content="/images/message.png" />
       </Head>

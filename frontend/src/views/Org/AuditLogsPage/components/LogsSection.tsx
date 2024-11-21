@@ -111,7 +111,7 @@ export const LogsSection = ({
 
           handlePopUpToggle("upgradePlan", isOpen);
         }}
-        text="You can use audit logs if you switch to a paid Solomon AI plan."
+        text="You can use audit logs if you switch to a paid Vector plan."
       />
     </div>
   );

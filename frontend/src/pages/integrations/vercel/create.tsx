@@ -128,7 +128,7 @@ export default function VercelCreateIntegrationPage() {
       <Card className="max-w-lg rounded-md border border-mineshaft-600 p-0">
         <CardTitle
           className="px-6 text-left text-xl"
-          subTitle="Select which environment or folder in Solomon AI you want to sync to Vercel's environment variables."
+          subTitle="Select which environment or folder in Vector you want to sync to Vercel's environment variables."
         >
           <div className="flex flex-row items-center">
             <div className="flex items-center">
@@ -154,7 +154,7 @@ export default function VercelCreateIntegrationPage() {
             </Link>
           </div>
         </CardTitle>
-        <FormControl label="Solomon AI Project Environment" className="px-6">
+        <FormControl label="Vector Project Environment" className="px-6">
           <Select
             value={selectedSourceEnvironment}
             onValueChange={(val) => setSelectedSourceEnvironment(val)}
@@ -250,7 +250,7 @@ export default function VercelCreateIntegrationPage() {
         </div>
         <span className="mt-4 text-sm text-mineshaft-300">
           After creating an integration, your secrets will start syncing immediately. This might
-          cause an unexpected override of current secrets in Vercel with secrets from Solomon AI.
+          cause an unexpected override of current secrets in Vercel with secrets from Vector.
         </span>
       </div>
     </div>

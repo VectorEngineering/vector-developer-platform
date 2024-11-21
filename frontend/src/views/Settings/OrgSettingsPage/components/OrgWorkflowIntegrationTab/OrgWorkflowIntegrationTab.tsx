@@ -111,7 +111,7 @@ export const OrgWorkflowIntegrationTab = withPermission(
           </OrgPermissionCan>
         </div>
         <p className="mb-4 text-gray-400">
-          Connect Solomon AI to other platforms for notification and workflow integrations.
+          Connect Vector to other platforms for notification and workflow integrations.
         </p>
         <TableContainer>
           <Table>

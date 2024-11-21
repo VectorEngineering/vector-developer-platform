@@ -161,7 +161,7 @@ export const AdminDashboardPage = () => {
                     Allow user signups
                   </div>
                   <div className="mb-4 max-w-sm text-sm text-mineshaft-400">
-                    Select if you want users to be able to signup freely into your Solomon AI
+                    Select if you want users to be able to signup freely into your Vector
                     instance.
                   </div>
                   <Controller
@@ -264,8 +264,8 @@ export const AdminDashboardPage = () => {
                 <div className="flex flex-col justify-start">
                   <div className="mb-2 text-xl font-semibold text-mineshaft-100">Trust emails</div>
                   <div className="mb-4 max-w-sm text-sm text-mineshaft-400">
-                    Select if you want Solomon AI to trust external emails from SAML/LDAP/OIDC
-                    identity providers. If set to false, then Solomon AI will prompt SAML/LDAP/OIDC
+                    Select if you want Vector to trust external emails from SAML/LDAP/OIDC
+                    identity providers. If set to false, then Vector will prompt SAML/LDAP/OIDC
                     provisioned users to verify their email upon their first login.
                   </div>
                   <Controller

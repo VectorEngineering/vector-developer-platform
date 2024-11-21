@@ -31,7 +31,7 @@ const initialSyncBehaviors = [
     value: IntegrationSyncBehavior.OVERWRITE_TARGET
   },
   { label: "Import non-sensitive - Prefer values from Terraform Cloud", value: IntegrationSyncBehavior.PREFER_TARGET },
-  { label: "Import non-sensitive - Prefer values from Solomon AI", value: IntegrationSyncBehavior.PREFER_SOURCE }
+  { label: "Import non-sensitive - Prefer values from Vector", value: IntegrationSyncBehavior.PREFER_SOURCE }
 ];
 
 const variableTypes = [{ name: "env" }, { name: "terraform" }];
@@ -121,7 +121,7 @@ export default function TerraformCloudCreateIntegrationPage() {
       <Card className="max-w-lg border rounded-md border-mineshaft-600">
         <CardTitle
           className="px-6 text-xl text-left"
-            subTitle="Specify the encironment and path within Solomon AI that you want to push to which project in Terraform."
+            subTitle="Specify the encironment and path within Vector that you want to push to which project in Terraform."
         >
           <div className="flex flex-row items-center">
             <div className="flex items-center inline">

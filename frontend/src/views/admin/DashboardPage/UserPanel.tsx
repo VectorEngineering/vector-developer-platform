@@ -176,7 +176,7 @@ export const UserPanel = () => {
       <UpgradePlanModal
         isOpen={popUp.upgradePlan.isOpen}
         onOpenChange={(isOpen) => handlePopUpToggle("upgradePlan", isOpen)}
-        text="Deleting users via Admin UI is only available on Solomon AI's Pro plan and above."
+        text="Deleting users via Admin UI is only available on Vector's Pro plan and above."
       />
     </div>
   );

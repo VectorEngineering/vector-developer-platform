@@ -143,7 +143,7 @@ export const RolePermissionsSection = ({ roleSlug, isDisabled }: Props) => {
           </div>
         </div>
         <Alert
-          title="Solomon AI's permissions are now more granular. You can set separate permissions for folders, dynamic secrets, and imports. No changes required for existing APIs and clients."
+          title="Vector's permissions are now more granular. You can set separate permissions for folders, dynamic secrets, and imports. No changes required for existing APIs and clients."
           className="mt-4 border-primary/50 bg-primary/10"
         />
         <div className="py-4">

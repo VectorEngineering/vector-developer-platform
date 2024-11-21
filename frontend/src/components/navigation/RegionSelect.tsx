@@ -115,8 +115,8 @@ export const RegionSelect = () => {
           </button>
         </ModalTrigger>
         <ModalContent
-          title="Solomon AI Cloud data regions"
-          subTitle="Select the closest region to you and your team. Contact Solomon AI if you need to migrate regions."
+          title="Vector Cloud data regions"
+          subTitle="Select the closest region to you and your team. Contact Vector if you need to migrate regions."
         >
           {regions.map(({ value, label, location, flag }) => (
             <div className="mb-6" key={value}>

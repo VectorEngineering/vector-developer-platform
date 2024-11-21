@@ -129,7 +129,7 @@ export default function ChecklyCreateIntegrationPage() {
       <Card className="max-w-lg rounded-md border border-mineshaft-600 p-0">
         <CardTitle
           className="px-6 text-left text-xl"
-          subTitle="Choose which environment in Solomon AI you want to sync to Checkly environment variables."
+          subTitle="Choose which environment in Vector you want to sync to Checkly environment variables."
         >
           <div className="flex flex-row items-center">
             <div className="inline flex items-center pb-0.5">
@@ -170,7 +170,7 @@ export default function ChecklyCreateIntegrationPage() {
               animate={{ opacity: 1, translateX: 0 }}
               exit={{ opacity: 0, translateX: 30 }}
             >
-              <FormControl label="Solomon AI Project Environment">
+              <FormControl label="Vector Project Environment">
                 <Select
                   value={selectedSourceEnvironment}
                   onValueChange={(val) => setSelectedSourceEnvironment(val)}

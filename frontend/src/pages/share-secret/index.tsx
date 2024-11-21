@@ -6,7 +6,7 @@ const ShareNewPublicSecretPage = () => {
   return (
     <>
       <Head>
-        <title>Securely Share Secrets | Solomon AI</title>
+        <title>Securely Share Secrets | Vector</title>
         <link rel="icon" href="/infisical.ico" />
         <meta property="og:image" content="/images/message.png" />
         <meta property="og:title" content="" />

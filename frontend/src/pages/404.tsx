@@ -6,7 +6,7 @@ export default function Custom404() {
   return (
     <div className="flex flex-col justify-between bg-bunker-800 md:h-screen">
       <Head>
-        <title>Solomon AI | Page Not Found</title>
+        <title>Vector | Page Not Found</title>
         <link rel="icon" href="/infisical.ico" />
       </Head>
       <div className="flex h-screen w-screen flex-col items-center justify-center text-gray-200">

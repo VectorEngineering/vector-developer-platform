@@ -121,7 +121,7 @@ export default function HashiCorpVaultCreateIntegrationPage() {
       <Card className="max-w-lg rounded-md border border-mineshaft-600">
         <CardTitle
           className="px-6 text-left text-xl"
-          subTitle="Select which environment or folder in Solomon AI you want to sync to which path in HashiCorp Vault."
+          subTitle="Select which environment or folder in Vector you want to sync to which path in HashiCorp Vault."
         >
           <div className="flex flex-row items-center">
             <div className="inline-flex items-center">
@@ -178,7 +178,7 @@ export default function HashiCorpVaultCreateIntegrationPage() {
               name="secretPath"
               render={({ field, fieldState: { error } }) => (
                 <FormControl errorText={error?.message}
-                isError={Boolean(error)} isRequired label="Secrets Path" helperText="A path to your secrets in Solomon AI.">
+                isError={Boolean(error)} isRequired label="Secrets Path" helperText="A path to your secrets in Vector.">
                   <Input {...field} autoCorrect="off" spellCheck={false} placeholder="/" />
                 </FormControl>
               )}
@@ -233,7 +233,7 @@ export default function HashiCorpVaultCreateIntegrationPage() {
         </div>
         <span className="mt-4 text-sm text-mineshaft-300">
           After creating an integration, your secrets will start syncing immediately. This might
-          cause an unexpected override of current secrets in Vault with secrets from Solomon AI.
+          cause an unexpected override of current secrets in Vault with secrets from Vector.
         </span>
       </div>
     </div>

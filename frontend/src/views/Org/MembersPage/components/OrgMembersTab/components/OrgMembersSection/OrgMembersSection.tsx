@@ -56,7 +56,7 @@ export const OrgMembersSection = () => {
   const handleAddMemberModal = () => {
     if (currentOrg?.authEnforced) {
       createNotification({
-        text: "You cannot manage users from Solomon AI when org-level auth is enforced for your organization",
+        text: "You cannot manage users from Vector when org-level auth is enforced for your organization",
         type: "error"
       });
       return;
@@ -64,7 +64,7 @@ export const OrgMembersSection = () => {
 
     if ((!isMoreUsersAllowed || !isMoreIdentitiesAllowed) && !isEnterprise) {
       handlePopUpOpen("upgradePlan", {
-        description: "You can add more members if you upgrade your Solomon AI plan."
+        description: "You can add more members if you upgrade your Vector plan."
       });
       return;
     }

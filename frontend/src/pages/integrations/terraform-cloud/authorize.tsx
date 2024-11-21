@@ -61,7 +61,7 @@ export default function TerraformCloudCreateIntegrationPage() {
       <Card className="max-w-lg border rounded-md border-mineshaft-600">
         <CardTitle
           className="px-6 text-xl text-left"
-          subTitle="After adding the details below, you will be prompted to set up an integration for a particular Solomon AI project and environment."
+          subTitle="After adding the details below, you will be prompted to set up an integration for a particular Vector project and environment."
         >
           <div className="flex flex-row items-center">
             <div className="flex items-center inline">

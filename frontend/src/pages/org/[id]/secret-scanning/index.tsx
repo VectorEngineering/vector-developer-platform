@@ -89,12 +89,12 @@ const SecretScanning = withPermission(
                 <div>
                   {integrationEnabled ? (
                     <p className="text-mineshaft-300">
-                      Your GitHub organization is connected to Solomon AI, and is being continuously
+                      Your GitHub organization is connected to Vector, and is being continuously
                       monitored for secret leaks.
                     </p>
                   ) : (
                     <p className="text-mineshaft-300">
-                      Connect your GitHub organization to Solomon AI.
+                      Connect your GitHub organization to Vector.
                     </p>
                   )}
                 </div>

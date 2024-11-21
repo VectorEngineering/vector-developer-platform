@@ -411,7 +411,7 @@ export default function SignupInvite() {
         <>
           <Link href="/">
             <div className="mb-4 mt-20 flex justify-center">
-              <Image src="/images/gradientLogo.svg" height={90} width={120} alt="Solomon AI Logo" />
+              <Image src="/images/gradientLogo.svg" height={90} width={120} alt="Vector Logo" />
             </div>
           </Link>
           {step === 1 ? stepConfirmEmail : step === 2 ? main : step4}

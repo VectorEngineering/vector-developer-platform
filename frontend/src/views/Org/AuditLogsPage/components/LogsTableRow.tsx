@@ -75,7 +75,7 @@ export const LogsTableRow = ({ auditLog, isOrgAuditLogs, showActorColumn }: Prop
       // Platform / automatic syncs
       return (
         <Td>
-          <p>Automatically synced by Solomon AI</p>
+          <p>Automatically synced by Vector</p>
         </Td>
       );
     }

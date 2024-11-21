@@ -166,7 +166,7 @@ export const InitialStep = ({ setStep, email, setEmail, password, setPassword }:
         className="flex flex-col items-center justify-center w-full mx-auto"
       >
         <h1 className="mb-8 text-xl font-medium text-center text-transparent bg-gradient-to-b from-white to-bunker-200 bg-clip-text">
-          Login to Solomon AI
+          Login to Vector
         </h1>
         <RegionSelect />
         {config.defaultAuthOrgAuthMethod === AuthMethod.SAML && (
@@ -205,7 +205,7 @@ export const InitialStep = ({ setStep, email, setEmail, password, setPassword }:
       className="flex flex-col items-center justify-center w-full mx-auto"
     >
       <h1 className="mb-8 text-xl font-medium text-center text-transparent bg-gradient-to-b from-white to-bunker-200 bg-clip-text">
-        Login to Solomon AI
+        Login to Vector
       </h1>
       <RegionSelect />
       {shouldDisplayLoginMethod(LoginMethod.SAML) && (

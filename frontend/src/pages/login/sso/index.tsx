@@ -22,7 +22,7 @@ export default function LoginSSOPage() {
       </Head>
       <Link href="/">
         <div className="mb-4 mt-20 flex justify-center">
-          <Image src="/images/gradientLogo.svg" height={90} width={120} alt="Solomon AI logo" />
+          <Image src="/images/gradientLogo.svg" height={90} width={120} alt="Vector logo" />
         </div>
       </Link>
       <LoginSSO providerAuthToken={token} />

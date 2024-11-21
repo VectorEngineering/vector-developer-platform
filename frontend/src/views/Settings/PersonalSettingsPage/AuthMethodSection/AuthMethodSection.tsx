@@ -98,7 +98,7 @@ export const AuthMethodSection = () => {
       </h2>
       <p className="mb-4 text-gray-400">
         By enabling a SSO provider, you are allowing an account with that provider which uses the
-        same email address as your existing Solomon AI account to be able to log in to Solomon AI.
+        same email address as your existing Vector account to be able to log in to Vector.
       </p>
       <div className="mb-4">
         {user &&

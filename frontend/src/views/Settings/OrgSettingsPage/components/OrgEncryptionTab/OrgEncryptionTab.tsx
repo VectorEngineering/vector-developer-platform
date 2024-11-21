@@ -191,7 +191,7 @@ export const OrgEncryptionTab = withPermission(
         <UpgradePlanModal
           isOpen={popUp.upgradePlan.isOpen}
           onOpenChange={(isOpen) => handlePopUpToggle("upgradePlan", isOpen)}
-          text="You can configure external KMS if you switch to Solomon AI's Enterprise plan."
+          text="You can configure external KMS if you switch to Vector's Enterprise plan."
         />
         <AddExternalKmsForm
           isOpen={popUp.addExternalKms.isOpen}

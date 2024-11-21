@@ -189,7 +189,7 @@ export const AddOrgMemberModal = ({
               <div>An invite is specific to an email address and expires after 1 day.</div>
             )}
             {completeInviteLinks &&
-              "This Solomon AI instance does not have a email provider setup. Please share this invite link with the invitee manually"}
+              "This Vector instance does not have a email provider setup. Please share this invite link with the invitee manually"}
           </div>
         }
       >

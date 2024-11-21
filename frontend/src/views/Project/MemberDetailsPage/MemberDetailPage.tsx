@@ -151,7 +151,7 @@ export const MemberDetailsPage = withProjectPermission(
               onOpenUpgradeModal={() =>
                 handlePopUpOpen("upgradePlan", {
                   description:
-                    "You can assign custom roles to members if you upgrade your Solomon AI plan."
+                    "You can assign custom roles to members if you upgrade your Vector plan."
                 })
               }
             />

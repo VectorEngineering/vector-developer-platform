@@ -183,7 +183,7 @@ export const OrgAuthTab = withPermission(
           onOpenChange={(isOpen) => handlePopUpToggle("upgradePlan", isOpen)}
           text={`You can use ${
             (popUp.upgradePlan.data as { feature: string })?.feature
-          } if you switch to Solomon AI's ${
+          } if you switch to Vector's ${
             (popUp.upgradePlan.data as { plan: string })?.plan
           } plan.`}
         />

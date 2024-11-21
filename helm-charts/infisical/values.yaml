@@ -152,7 +152,7 @@ smtp:
   password: ""
   port: "587"
   fromAddress: "team@inbox.solomon-ai.app"
-  fromName: "Solomon AI"
+  fromName: "Vector"
 
 auth:
   google:

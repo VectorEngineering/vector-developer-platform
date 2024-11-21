@@ -60,7 +60,7 @@ export default function GitLabAuthorizeIntegrationPage() {
       <Card className="mb-12 max-w-lg rounded-md border border-mineshaft-600">
         <CardTitle
           className="px-6 text-left text-xl"
-          subTitle="Authorize this integration to sync secrets from Solomon AI to GitLab. If no self-hosted GitLab URL is specified, then Solomon AI will connect you to GitLab Cloud."
+          subTitle="Authorize this integration to sync secrets from Vector to GitLab. If no self-hosted GitLab URL is specified, then Vector will connect you to GitLab Cloud."
         >
           <div className="flex flex-row items-center">
             <div className="inline flex items-center pb-0.5">

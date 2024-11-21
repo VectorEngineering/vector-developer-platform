@@ -198,7 +198,7 @@ export default function GitLabCreateIntegrationPage() {
       <Card className="max-w-lg rounded-md border border-mineshaft-600">
         <CardTitle
           className="px-6 text-left text-xl"
-          subTitle="Select which environment or folder in Solomon AI you want to sync to GitLab's environment variables."
+          subTitle="Select which environment or folder in Vector you want to sync to GitLab's environment variables."
         >
           <div className="flex flex-row items-center">
             <div className="inline flex items-center pb-0.5">
@@ -407,7 +407,7 @@ export default function GitLabCreateIntegrationPage() {
                       onCheckedChange={(isChecked) => onChange(isChecked)}
                       isChecked={value}
                     >
-                      <div className="max-w-md">Mark Solomon AI secrets in Gitlab as &apos;Masked&apos; secrets</div>
+                      <div className="max-w-md">Mark Vector secrets in Gitlab as &apos;Masked&apos; secrets</div>
                     </Switch>
                   )}
                 />
@@ -422,7 +422,7 @@ export default function GitLabCreateIntegrationPage() {
                       onCheckedChange={(isChecked) => onChange(isChecked)}
                       isChecked={value}
                     >
-                      Mark Solomon AI secrets in Gitlab as &apos;Protected&apos; secrets
+                      Mark Vector secrets in Gitlab as &apos;Protected&apos; secrets
                     </Switch>
                   )}
                 />
@@ -471,7 +471,7 @@ export default function GitLabCreateIntegrationPage() {
       {/* <div className="border-t border-mineshaft-800 w-full max-w-md mt-6"/>
       <div className="flex flex-col bg-mineshaft-800 border border-mineshaft-600 w-full p-4 max-w-lg mt-6 rounded-md">
         <div className="flex flex-row items-center"><FontAwesomeIcon icon={faCircleInfo} className="text-mineshaft-200 text-xl"/> <span className="ml-3 text-md text-mineshaft-100">Pro Tip</span></div>
-        <span className="text-mineshaft-300 text-sm mt-4">After creating an integration, your secrets will start syncing immediately. This might cause an unexpected override of current secrets in GitLab with secrets from Solomon AI.</span>
+        <span className="text-mineshaft-300 text-sm mt-4">After creating an integration, your secrets will start syncing immediately. This might cause an unexpected override of current secrets in GitLab with secrets from Vector.</span>
       </div> */}
       <Modal
         isOpen={popUp.confirmIntegration?.isOpen}

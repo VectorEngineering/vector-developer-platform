@@ -227,7 +227,7 @@ export default function LoginPage() {
         <div className="mx-auto mt-20 w-fit rounded-lg border-2 border-mineshaft-500 p-10 shadow-lg">
           <Link href="/">
             <div className="mb-4 flex justify-center">
-              <Image src="/images/gradientLogo.svg" height={90} width={120} alt="Solomon AI logo" />
+              <Image src="/images/gradientLogo.svg" height={90} width={120} alt="Vector logo" />
             </div>
           </Link>
           <form className="mx-auto flex w-full flex-col items-center justify-center">

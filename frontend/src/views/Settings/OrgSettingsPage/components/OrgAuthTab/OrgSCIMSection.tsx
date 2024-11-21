@@ -110,7 +110,7 @@ export const OrgScimSection = () => {
       <UpgradePlanModal
         isOpen={popUp.upgradePlan.isOpen}
         onOpenChange={(isOpen) => handlePopUpToggle("upgradePlan", isOpen)}
-        text="You can use SCIM Provisioning if you switch to Solomon AI's Enterprise plan."
+        text="You can use SCIM Provisioning if you switch to Vector's Enterprise plan."
       />
     </div>
   );

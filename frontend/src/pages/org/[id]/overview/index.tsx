@@ -88,7 +88,7 @@ const features = [
   },
   {
     id: 1,
-    name: "Solomon AI Agent",
+    name: "Vector Agent",
     link: "https://infisical.com/docs/infisical-agent/overview",
     description: "Inject secrets into your apps without modifying any application logic."
   }
@@ -823,7 +823,7 @@ const OrganizationPage = () => {
               icon={faExclamationCircle}
               className="mr-4 p-4 text-2xl text-mineshaft-50"
             />
-            Attention: Updated versions of Solomon AI now require Redis for full functionality. Learn
+            Attention: Updated versions of Vector now require Redis for full functionality. Learn
             how to configure it
             <Link
               href="https://infisical.com/docs/self-hosting/configuration/redis"
@@ -918,7 +918,7 @@ const OrganizationPage = () => {
         )}
       </div>
       <div className="mb-4 flex flex-col items-start justify-start px-6 py-6 pb-6 text-3xl">
-        <p className="mr-4 font-semibold text-white">Explore Solomon AI</p>
+        <p className="mr-4 font-semibold text-white">Explore Vector</p>
         <div className="mt-4 grid w-full grid-cols-3 gap-4">
           {features.map((feature) => (
             <div
@@ -955,8 +955,8 @@ const OrganizationPage = () => {
           <p className="mr-4 mb-4 font-semibold text-white">Onboarding Guide</p>
           <div className="mb-3 grid w-full grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
             <LearningItemSquare
-              text="Watch Solomon AI demo"
-              subText="Set up Solomon AI in 3 min."
+              text="Watch Vector demo"
+              subText="Set up Vector in 3 min."
               complete={hasUserClickedIntro}
               icon={faHandPeace}
               time="3 min"
@@ -976,7 +976,7 @@ const OrganizationPage = () => {
                 />
                 <LearningItemSquare
                   text="Invite your teammates"
-                  subText="Solomon AI is better used as a team."
+                  subText="Vector is better used as a team."
                   complete={usersInOrg}
                   icon={faUserPlus}
                   time="2 min"
@@ -986,7 +986,7 @@ const OrganizationPage = () => {
             )}
             <div className="block xl:hidden 2xl:block">
               <LearningItemSquare
-                text="Join Solomon AI Slack"
+                text="Join Vector Slack"
                 subText="Have any questions? Ask us!"
                 complete={hasUserClickedSlack}
                 icon={faSlack}
@@ -1028,8 +1028,8 @@ const OrganizationPage = () => {
           )}
           {orgWorkspaces.length !== 0 && (
             <LearningItem
-              text="Integrate Solomon AI with your infrastructure"
-              subText="Connect Solomon AI to various 3rd party services and platforms."
+              text="Integrate Vector with your infrastructure"
+              subText="Connect Vector to various 3rd party services and platforms."
               complete={false}
               icon={faPlug}
               time="15 min"
@@ -1162,7 +1162,7 @@ const OrganizationPage = () => {
                             className="mb-12 w-full bg-mineshaft-600"
                           >
                             <SelectItem value={INTERNAL_KMS_KEY_ID} key="kms-internal">
-                              Default Solomon AI KMS
+                              Default Vector KMS
                             </SelectItem>
                             {externalKmsList?.map((kms) => (
                               <SelectItem value={kms.id} key={`kms-${kms.id}`}>

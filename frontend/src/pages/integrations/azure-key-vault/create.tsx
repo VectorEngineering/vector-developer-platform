@@ -26,7 +26,7 @@ const initialSyncBehaviors = [
     label: "Import - Prefer values from Azure Vault",
     value: IntegrationSyncBehavior.PREFER_TARGET
   },
-  { label: "Import - Prefer values from Solomon AI", value: IntegrationSyncBehavior.PREFER_SOURCE }
+  { label: "Import - Prefer values from Vector", value: IntegrationSyncBehavior.PREFER_SOURCE }
 ];
 
 export default function AzureKeyVaultCreateIntegrationPage() {

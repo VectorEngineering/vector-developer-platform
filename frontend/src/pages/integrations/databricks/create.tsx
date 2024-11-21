@@ -103,7 +103,7 @@ export default function DatabricksCreateIntegrationPage() {
       <Card className="max-w-lg rounded-md border border-mineshaft-600">
         <CardTitle
           className="px-6 text-left text-xl"
-          subTitle="Choose which environment or folder in Solomon AI you want to sync to which Databricks secrets scope."
+          subTitle="Choose which environment or folder in Vector you want to sync to which Databricks secrets scope."
         >
           <div className="flex flex-row items-center">
             <div className="flex items-center pb-0.5">
@@ -198,7 +198,7 @@ export default function DatabricksCreateIntegrationPage() {
         </div>
         <span className="mt-4 text-sm text-mineshaft-300">
           After creating an integration, your secrets will start syncing immediately. This might
-          cause an unexpected override of current secrets in Databricks with secrets from Solomon AI.
+          cause an unexpected override of current secrets in Databricks with secrets from Vector.
         </span>
       </div>
     </div>

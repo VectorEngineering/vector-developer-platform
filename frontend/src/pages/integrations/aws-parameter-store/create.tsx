@@ -172,7 +172,7 @@ export default function AWSParameterStoreCreateIntegrationPage() {
       <Card className="max-w-lg rounded-md border border-mineshaft-600">
         <CardTitle
           className="px-6 text-left text-xl"
-          subTitle="Choose which environment in Solomon AI you want to sync to secerts in AWS Parameter Store."
+          subTitle="Choose which environment in Vector you want to sync to secerts in AWS Parameter Store."
         >
           <div className="flex flex-row items-center">
             <div className="inline flex items-center">
@@ -354,7 +354,7 @@ export default function AWSParameterStoreCreateIntegrationPage() {
         <span className="mt-4 text-sm text-mineshaft-300">
           After creating an integration, your secrets will start syncing immediately. This might
           cause an unexpected override of current secrets in AWS Parameter Store with secrets from
-          Solomon AI.
+          Vector.
         </span>
       </div>
     </div>

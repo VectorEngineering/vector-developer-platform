@@ -97,7 +97,7 @@ export const IdentitySection = withPermission(
                 onClick={() => {
                   if (!isMoreIdentitiesAllowed && !isEnterprise) {
                     handlePopUpOpen("upgradePlan", {
-                      description: "You can add more identities if you upgrade your Solomon AI plan."
+                      description: "You can add more identities if you upgrade your Vector plan."
                     });
                     return;
                   }

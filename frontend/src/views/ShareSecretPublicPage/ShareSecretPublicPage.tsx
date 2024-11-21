@@ -17,7 +17,7 @@ export const ShareSecretPublicPage = () => {
                 src="/images/gradientLogo.svg"
                 height={90}
                 width={120}
-                alt="Solomon AI logo"
+                alt="Vector logo"
                 className="cursor-pointer"
               />
             </Link>
@@ -33,7 +33,7 @@ export const ShareSecretPublicPage = () => {
               rel="noopener noreferrer"
               className="text-bold bg-gradient-to-tr from-yellow-500 to-primary-500 bg-clip-text text-transparent"
             >
-              Solomon AI &rarr;
+              Vector &rarr;
             </a>
           </p>
         </div>
@@ -59,7 +59,7 @@ export const ShareSecretPublicPage = () => {
                 rel="noopener noreferrer"
                 className="text-bold bg-gradient-to-tr from-yellow-500 to-primary-500 bg-clip-text text-transparent"
               >
-                Solomon AI
+                Vector
               </a>{" "}
               is the all-in-one secret management platform to securely manage secrets, configs, and
               certificates across your team and infrastructure.
@@ -67,7 +67,7 @@ export const ShareSecretPublicPage = () => {
             <div className="mt-4 cursor-pointer sm:mt-0">
               <Link href="https://solomon-ai.app">
                 <div className="flex items-center justify-between rounded-md border border-mineshaft-400/40 bg-mineshaft-600 py-2 px-3 duration-200 hover:border-primary/60 hover:bg-primary/20 hover:text-white">
-                  <p className="mr-4 whitespace-nowrap">Try Solomon AI</p>
+                  <p className="mr-4 whitespace-nowrap">Try Vector</p>
                   <FontAwesomeIcon icon={faArrowRight} />
                 </div>
               </Link>
@@ -80,7 +80,7 @@ export const ShareSecretPublicPage = () => {
         <p className="text-center text-sm text-mineshaft-300">
           Made with ❤️ by{" "}
           <a className="text-primary" href="https://solomon-ai.app">
-            Solomon AI
+            Vector
           </a>
           <br />
           200 Water St, New York, New York, United States. 🇺🇸

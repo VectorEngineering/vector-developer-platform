@@ -79,7 +79,7 @@ export default function GCPSecretManagerAuthorizeIntegrationPage() {
       <Card className="mb-12 max-w-lg rounded-md border border-mineshaft-600">
         <CardTitle
           className="px-6 text-left text-xl"
-          subTitle="Connect Solomon AI to GCP Secret Manager to sync secrets."
+          subTitle="Connect Vector to GCP Secret Manager to sync secrets."
         >
           <div className="flex flex-row items-center">
             <div className="inline flex items-center pb-0.5">

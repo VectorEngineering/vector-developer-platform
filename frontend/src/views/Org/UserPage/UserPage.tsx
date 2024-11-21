@@ -175,7 +175,7 @@ export const UserPage = withPermission(
                           onClick={async () => {
                             if (currentOrg?.scimEnabled) {
                               createNotification({
-                                text: "You cannot manage users from Solomon AI when SCIM is enabled for your organization",
+                                text: "You cannot manage users from Vector when SCIM is enabled for your organization",
                                 type: "error"
                               });
                               return;
@@ -218,7 +218,7 @@ export const UserPage = withPermission(
                           onClick={() => {
                             if (currentOrg?.scimEnabled) {
                               createNotification({
-                                text: "You cannot manage users from Solomon AI when SCIM is enabled for your organization",
+                                text: "You cannot manage users from Vector when SCIM is enabled for your organization",
                                 type: "error"
                               });
                               return;
